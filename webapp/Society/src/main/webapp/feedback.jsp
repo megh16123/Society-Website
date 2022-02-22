@@ -37,12 +37,13 @@ Collections.reverse(feeds);
       /></a>
       <nav>
         <ul class="nav-links">
-          <li><a class="gym" href="index.jsp">Home</a></li>
-                <li><a class="gym" href="gym.jsp">Gym</a></li>
-                <li><a class="gym" href="pool.jsp">Pool</a></li>
-                <li><a class="gym"  href="parking.jsp">Parking</a></li>
-                <li><a class="gym" href="feedback.jsp">Anonymous Feedback</a></li>
-                <li><a class="gym" href="login.jsp">Login</a></li>
+                   <li><a class="gym" href="index.jsp">Home</a></li>
+          <li><a class="gym" href="gym.jsp">Gym</a></li>
+          <li><a class="gym" href="pool.jsp">Pool</a></li>
+          <li><a class="gym" href="parking.jsp">Parking</a></li>
+          <li><a class="gym" href="feedback.jsp">Anonymous Feedback</a></li>
+          <li><a class="gym" href="therapy.jsp">Secret Therapy</a></li>
+          <li><a class="gym" href="login.jsp">Login</a></li>
         </ul>
       </nav>
       <p class="menu kbc">Menu</p>
@@ -50,11 +51,12 @@ Collections.reverse(feeds);
     <div class="overlay">
       <a class="close">&times;</a>
       <div class="overlay__content">
-        <a href="index.jsp">Home</a>
+                        <a href="index.jsp">Home</a>
         <a href="gym.jsp">Gym</a>
         <a href="pool.jsp">Pool</a>
         <a href="parking.jsp">Parking</a>
         <a href="feedback.jsp">Anonymous Feedback</a>
+        <a href="therapy.jsp">Secret Therapy</a>
         <a href="login.jsp">Login</a>
       </div>
     </div>
