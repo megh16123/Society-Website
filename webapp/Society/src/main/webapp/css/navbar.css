@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links a,
+  .kbc,
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #e20b0b98;
+    text-decoration: none;
+  }
+  
+  .nav-links li {
+    padding: 0px 20px;
+  }
+  
+  .nav-links li a {
+    transition: all 0.3s ease 0s;
+    color: #000;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+  }
+  .nav-links li .gym{
+  transition: all 0.3s ease 0s;
+  color: #e3e3e3;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  }
+  .nav-links li .gym:hover{
+      color: #524e4e;
+  }
+  .nav-links li a:hover {
+    color: #e3e3e3;
+    text-decoration: none;
+  }
+  .kbc {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background: radial-gradient(circle, rgba(135,135,135,1) 41%, rgba(88,88,88,1) 84%);
+    box-shadow: 3px 3px 14px 1px ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .kbc:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    background-color: #24252a;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #0088a9;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .nav-links,
+    .kbc {
+      display: none;
+    }
+    .menu {
+      display: initial;
+    }
+  }
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }

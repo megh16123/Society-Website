@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/giving-feedback/how-to-give-feedback-header@2x.png");
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feedback-container{
+    display: flex;
+    padding-top:2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-container .feedback-received{
+    width: 60%;
+    height: 600px;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.feedback-received::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .feedback-received::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .feedback-received::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+.feedback-button{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.feedback-container .feedback-received .feed{
+    margin: 3%;
+    border: 1px dashed white;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 1.4rem;
+    padding: 2%;
+}
+.feedback-container .feedback-received .feed p{
+    font-size: 1.1rem;
+    margin-top: 2%;
+    font-weight: 500;
+    color: aliceblue;
+    text-align: justify;
+    letter-spacing: 1.5px;
+}

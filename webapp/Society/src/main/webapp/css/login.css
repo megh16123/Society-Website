@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    height: 100vh;
+    background-image: url("../media/loginBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5% auto;
+}
+.login-form{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    flex-direction: column;
+    width: 54%;
+    margin-left: -20%;
+    border-radius: 10px;
+    height: 500px;
+    background-color: #00000085;
+}
+.login-form .input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: -5%;
+}
+.login-container h2{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-top: 3%;
+    font-weight: 600;
+    color: aliceblue;
+}
+.login-form .input-container .input-label{
+    display: flex;
+    margin: 5% 15%;
+}
+.login-form .input-container .input-label label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+}
+.login-form .input-container input{
+    margin: 10%;
+    padding: 3% 7%;
+    border-radius: 10px;
+}
+
+.submit{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(20, 61, 148);
+    padding: 0.6rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: rgb(233, 231, 231);
+    margin-top: 10%;
+}
+@media screen and (max-width:860px){
+    .login-form{
+        width: 60%;
+    }
+}
+@media screen and (max-width:768px){
+    .login-form{
+        margin-left: 0;
+        width: 80%;
+    }
+}
+@media screen and (max-width:550px){
+   .input-label{
+       flex-direction: column;
+   }
+   .login-form .input-container input{
+   padding: 5% 55%;
+   }
+}

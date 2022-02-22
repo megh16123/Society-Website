@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+<display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginAuth</servlet-name>
+  	<display-name>LoginAuth</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.LoginAuth</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddFeed</servlet-name>
+  	<display-name>AddFeed</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.AddFeed</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>logout</servlet-name>
+  	<display-name>logout</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GymSlotBook</servlet-name>
+  	<display-name>GymSlotBook</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.GymSlotBook</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PoolSlotBook</servlet-name>
+  	<display-name>PoolSlotBook</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.PoolSlotBook</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ParkingSlotsBook</servlet-name>
+  	<display-name>ParkingSlotsBook</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.ParkingSlotsBook</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SecretTherapySlotBook</servlet-name>
+  	<display-name>SecretTherapySlotBook</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.SecretTherapySlotBook</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginAuth</servlet-name>
+  	<url-pattern>/LoginAuth</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddFeed</servlet-name>
+  	<url-pattern>/AddFeed</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>logout</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GymSlotBook</servlet-name>
+  	<url-pattern>/GymSlotBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PoolSlotBook</servlet-name>
+  	<url-pattern>/PoolSlotBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ParkingSlotsBook</servlet-name>
+  	<url-pattern>/ParkingSlotsBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SecretTherapySlotBook</servlet-name>
+  	<url-pattern>/SecretTherapySlotBook</url-pattern>
+  </servlet-mapping>
+</web-app>

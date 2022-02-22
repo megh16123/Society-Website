@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.219),rgba(0, 0, 0, 0.205)),url("https://www.prosightspecialty.com/wp-content/uploads/2019/10/GettyImages-173542902-webb.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parking-container{
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.parking-container h2{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    margin: 3%;
+}
+.parking-slots{
+    display: flex;
+    justify-content: center;
+}
+.parking-container table{
+    background-color: #000000;
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 5%;
+
+}
+.parking-container table tr{
+    width: 40%;
+    border: 1px dotted white;
+}
+.parking-container table th{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    height: 40px;
+}
+.parking-container table td{
+    padding: 3%;
+    border: 1px dotted white;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.booking{
+    padding: 2% 4%;
+    background-color: rgb(20, 61, 148);
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: aliceblue;
+    
+}
+.booking:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .gym-container table{
+        width: 80%;
+    }
+  }
